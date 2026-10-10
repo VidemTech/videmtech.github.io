@@ -1,172 +1,150 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VidemTech - Solutions Mobiles Innovantes</title>
-    <style>
-        /* Style de base - Vous voudrez l'étendre ou utiliser un fichier CSS séparé */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        nav ul {
-            padding: 0;
-            list-style: none;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1.1rem;
-        }
-        .hero {
-            background: #50b3a2; /* Couleur d'exemple */
-            color: #fff;
-            padding: 2rem;
-            text-align: center;
-        }
-        .hero h2 {
-            font-size: 2rem;
-        }
-        .projects {
-            padding: 20px 0;
-        }
-        .project-card {
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin-bottom: 20px;
-            padding: 20px;
-        }
-        .project-card h3 {
-            margin-top: 0;
-            color: #333;
-        }
-        .project-card p {
-            font-size: 0.95rem;
-        }
-        .project-card .read-more {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 8px 15px;
-            background: #333;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 3px;
-            transition: background 0.3s ease;
-        }
-        .project-card .read-more:hover {
-            background: #555;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: #fff;
-            margin-top: 30px;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VidemTech | Applications mobiles et sites web</title>
+<meta name="description" content="VidemTech conçoit des applications mobiles et des sites web. Découvrez les projets : LudoNook, Mathematix et Boarder.">
+<link rel="canonical" href="https://videmtech.github.io/">
+<meta name="theme-color" content="#F4F5FA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B1020" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="VidemTech">
+<meta property="og:title" content="VidemTech | Applications mobiles et sites web">
+<meta property="og:description" content="VidemTech conçoit des applications mobiles et des sites web. Découvrez les projets : LudoNook, Mathematix et Boarder.">
+<meta property="og:url" content="https://videmtech.github.io/">
+<meta property="og:image" content="https://videmtech.github.io/assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/bricolage-grotesque-700.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/instrument-sans-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+<script>document.documentElement.className += ' js';</script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>VidemTech</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="#projects">Projets</a></li>
-                    <li><a href="#about">À Propos</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/img/favicon.svg" alt="" width="32" height="32">VidemTech</a>
+    <nav aria-label="Navigation principale">
+      <ul class="nav">
+        <li><a href="index.html" aria-current="page">Accueil</a></li>
+        <li><a href="index.html#projets">Projets</a></li>
+        <li><a href="index.html#a-propos">À propos</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-    <section class="hero">
-        <div class="container">
-            <h2>Solutions Mobiles Innovantes & Expériences d'Apprentissage Ludiques</h2>
-            <p>Nous créons des applications engageantes qui font la différence.</p>
-        </div>
-    </section>
+<main id="contenu">
+  <section class="hero">
+    <div class="wrap">
+      <h1>Je crée des applications mobiles et des sites web.</h1>
+      <p class="lead">VidemTech est le nom de mes projets techniques. Chaque projet a sa page, avec sa présentation et, pour les applications, sa politique de confidentialité.</p>
+      <div class="actions">
+        <a class="btn btn--primary" href="#projets">Voir les projets</a>
+        <a class="btn btn--ghost" href="mailto:contact@videm.tech">Écrire un message</a>
+      </div>
+    </div>
+  </section>
 
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Nos Projets</h2>
-
-            <div class="project-card">
-                <h3>Mathematix - Pratique Ludique des Maths</h3>
-                <img src="assets/img/mathematix_icon.png" alt="Icône de l'application Mathematix" style="width:100px; height:auto; float:left; margin-right:15px; border-radius:10px;">
-                <p>
-                    Mathematix est une application mobile captivante conçue pour aider les utilisateurs de tous âges
-                    à améliorer leurs compétences en calcul mental. Sélectionnez votre niveau scolaire et relevez
-                    le défi avec une variété de problèmes arithmétiques de manière ludique et interactive !
-                </p>
-                <p>Fonctionnalités : difficulté ajustable, différents modes de jeu et suivi des progrès (bientôt disponible !).</p>
-                <a href="mathematix.html" class="read-more">En savoir plus & Politique de confidentialité</a>
-                <div style="clear:both;"></div> <!-- Pour gérer le flottant de l'image -->
+  <section class="section" id="projets" aria-labelledby="titre-projets">
+    <div class="wrap">
+      <h2 class="section-title" id="titre-projets">Projets</h2>
+      <p class="section-intro">Chaque projet est présenté sur sa propre page.</p>
+      <ul class="projects">
+        <li>
+          <a class="project-row" href="ludonook.html">
+            <img class="project-icon" src="assets/img/ludonook.svg" alt="" width="80" height="80">
+            <div>
+              <h3 class="project-name">LudoNook</h3>
+              <p class="project-desc">Le répertoire des jeux de société : description, synopsis, caractéristiques, règles, notes et commentaires des joueurs.</p>
+              <ul class="chips"><li class="chip chip--accent">Sur Google Play</li><li class="chip">Application Android</li></ul>
             </div>
-
-            <!-- Ajoutez d'autres fiches de projet ici au fur et à mesure -->
-            <!--
-            <div class="project-card">
-                <h3>Une Autre Super Application</h3>
-                <p>Description de votre autre application...</p>
-                <a href="autre-app-privacy.html" class="read-more">En savoir plus & Politique de confidentialité</a>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a class="project-row" href="mathematix.html">
+            <img class="project-icon" src="assets/img/mathematix-192.png" alt="" width="80" height="80">
+            <div>
+              <h3 class="project-name">Mathematix</h3>
+              <p class="project-desc">Du calcul mental pour tous les âges, avec une difficulté adaptée au niveau scolaire.</p>
+              <ul class="chips"><li class="chip">Application mobile</li></ul>
             </div>
-            -->
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a class="project-row" href="boarder.html">
+            <img class="project-icon" src="assets/img/boarder.svg" alt="" width="80" height="80">
+            <div>
+              <h3 class="project-name">Boarder</h3>
+              <p class="project-desc">Application mobile. La présentation détaillée arrive bientôt.</p>
+              <ul class="chips"><li class="chip">Application mobile</li></ul>
+            </div>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+        </li>
+      </ul>
+      <p class="projects-note">D'autres projets seront ajoutés ici au fil du temps.</p>
+    </div>
+  </section>
 
+  <section class="section" id="savoir-faire" aria-labelledby="titre-savoir-faire">
+    <div class="wrap">
+      <h2 class="section-title" id="titre-savoir-faire">Ce que je fais</h2>
+      <dl class="facets">
+        <div>
+          <dt>Applications mobiles</dt>
+          <dd>Conception et développement d'applications Android, de l'idée jusqu'à la publication sur Google Play.</dd>
         </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <h2>À Propos de Nous</h2>
-            <p>VidemTech se consacre à la création d'applications mobiles de haute qualité, à la fois utiles et agréables. Nous mettons l'accent sur un design épuré, des expériences utilisateur intuitives et des fonctionnalités innovantes. Nous croyons au pouvoir de la technologie pour éduquer et divertir.</p>
-            <!-- Ajoutez plus d'informations sur la vision de votre entreprise, l'équipe (si applicable), etc. -->
+        <div>
+          <dt>Sites web</dt>
+          <dd>Des sites rapides, lisibles sur téléphone et faciles à maintenir, hébergés gratuitement.</dd>
         </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Nous Contacter</h2>
-            <p>Des questions ou des commentaires ? Nous serions ravis de vous entendre !</p>
-            <p>Email : <a href="mailto:contact@videm.tech">contact@videm.tech</a></p>
-            <!-- Ajoutez un formulaire de contact ou d'autres méthodes de contact si vous le souhaitez -->
+        <div>
+          <dt>Solutions techniques</dt>
+          <dd>Test et déploiement automatisés avec GitHub Actions, pour publier plus régulièrement.</dd>
         </div>
-    </section>
+      </dl>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; <span id="currentYear"></span> VidemTech. Tous droits réservés.</p>
-    </footer>
+  <section class="section" id="a-propos" aria-labelledby="titre-a-propos">
+    <div class="wrap split">
+      <h2 class="section-title" id="titre-a-propos">À propos</h2>
+      <div>
+        <p>VidemTech est le nom sous lequel je publie mes projets techniques : applications mobiles, sites web et outils.</p>
+        <p>Je privilégie des interfaces claires, des applications rapides et des outils gratuits pour les construire et les publier.</p>
+      </div>
+    </div>
+  </section>
 
-    <script>
-        // Script simple pour définir l'année en cours dans le pied de page
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
-    </script>
+  <section class="section" id="contact" aria-labelledby="titre-contact">
+    <div class="wrap">
+      <h2 class="section-title" id="titre-contact">Contact</h2>
+      <p class="section-intro">Une question, une idée de projet ou un retour sur une application ? Écrivez-moi.</p>
+      <a class="mail" href="mailto:contact@videm.tech">contact@videm.tech</a>
+      <p>Le code et les projets sont aussi sur <a href="https://github.com/VidemTech" rel="noopener">GitHub</a>.</p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="annee">2026</span> VidemTech. Tous droits réservés.</p>
+    <nav aria-label="Politiques de confidentialité">
+      <ul>
+        <li><a href="ludonook.html#confidentialite">Confidentialité de LudoNook</a></li>
+        <li><a href="mathematix.html#confidentialite">Confidentialité de Mathematix</a></li>
+        <li><a href="boarder.html#confidentialite">Confidentialité de Boarder</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+<script src="js/site.js" defer></script>
 </body>
 </html>
