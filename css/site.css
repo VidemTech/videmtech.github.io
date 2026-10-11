@@ -44,11 +44,9 @@
 /* Couleurs propres à chaque projet */
 body[data-projet="ludonook"]   { --proj: #0E7C63; --on-proj: #FFFFFF; --proj-ink: #0A6A54; }
 body[data-projet="mathematix"] { --proj: #FFC53D; --on-proj: #0F1630; --proj-ink: #7A5200; }
-body[data-projet="boarder"]    { --proj: #1B2447; --on-proj: #FFFFFF; --proj-ink: #1B2447; }
 @media (prefers-color-scheme: dark) {
   body[data-projet="ludonook"]   { --proj: #3CC9A0; --on-proj: #04201A; --proj-ink: #5FD9B7; }
   body[data-projet="mathematix"] { --proj-ink: #FFC53D; }
-  body[data-projet="boarder"]    { --proj: #8E9BFF; --on-proj: #0B1020; --proj-ink: #8E9BFF; }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
