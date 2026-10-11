@@ -7,16 +7,16 @@
 
 :root {
   color-scheme: light dark;
-  --bg: #F4F5FA;
+  --bg: #F2F5F8;
   --surface: #FFFFFF;
-  --ink: #0F1630;
-  --muted: #4A5170;
-  --line: #D8DBEC;
-  --tint: #E6E9FB;
-  --brand: #2B3FD6;
-  --on-brand: #FFFFFF;
-  --accent: #FFC53D;
-  --on-accent: #0F1630;
+  --ink: #12263F;
+  --muted: #43556E;
+  --line: #D7E0EE;
+  --tint: #EAF7F5;
+  --brand: #12263F;
+  --on-brand: #F2F5F8;
+  --accent: #4FD1C5;
+  --on-accent: #12263F;
   /* couleur du projet affiché (surchargée par page) */
   --proj: var(--brand);
   --on-proj: var(--on-brand);
@@ -30,14 +30,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0B1020;
-    --surface: #131A33;
-    --ink: #E9ECF8;
-    --muted: #A3AAC8;
-    --line: #27304F;
-    --tint: #1B2348;
-    --brand: #8E9BFF;
-    --on-brand: #0B1020;
+    --bg: #0B0F14;
+    --surface: #12263F;
+    --ink: #F2F5F8;
+    --muted: #C9D3DF;
+    --line: #20314C;
+    --tint: #16324F;
+    --brand: #4FD1C5;
+    --on-brand: #0B0F14;
   }
 }
 
