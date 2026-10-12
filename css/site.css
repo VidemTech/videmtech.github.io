@@ -149,6 +149,7 @@ strong { font-weight: 700; }
 .mail { display: inline-block; margin: 1.25rem 0 .5rem; font: 700 clamp(1.5rem, 4.6vw, 2.75rem)/1.1 var(--font-display); letter-spacing: -.02em; overflow-wrap: anywhere; }
 
 /* ---------- Pied de page ---------- */
+.kofi-widget { padding: 1rem var(--gutter); text-align: center; }
 .site-footer { border-top: 1px solid var(--line); padding-block: 2rem 2.5rem; color: var(--muted); font-size: .9375rem; }
 .site-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem 2rem; }
 .site-footer p { margin: 0; }
