@@ -60,70 +60,36 @@
     </section>
   </div>
 
-  <section class="section" id="fiche" aria-labelledby="titre-fiche">
+  <section class="section" id="apercu" aria-labelledby="titre-apercu">
     <div class="wrap">
-      <h2 class="section-title" id="titre-fiche">Une fiche pour chaque jeu</h2>
-      <p class="section-intro">Tous les jeux sont décrits de la même façon, en cinq rubriques. Voici un exemple avec un jeu fictif.</p>
-      <div class="fiche" data-tabs>
-        <div class="fiche-head">
-          <svg class="fiche-cover" viewBox="0 0 72 72" aria-hidden="true"><rect width="72" height="72" rx="14" fill="#fff" fill-opacity=".16"/><path d="M42 24 70 14v20z" fill="#FFC53D" fill-opacity=".45"/><path d="M29 60 33 28h6l4 32z" fill="#fff"/><rect x="31" y="20" width="10" height="8" fill="#FFC53D"/><path d="M29 20 36 11l7 9z" fill="#fff"/><path d="M6 60q6-5 12 0t12 0 12 0 12 0 12 0v12H6z" fill="#fff" fill-opacity=".35"/></svg>
-          <div>
-            <h3>Les Lanternes de Port-Brume</h3>
-            <p>Exemple de fiche, jeu fictif</p>
-          </div>
-        </div>
-        <div class="tablist" role="tablist" aria-label="Rubriques de la fiche">
-        <button class="tab" role="tab" id="onglet-description" aria-controls="panneau-description" aria-selected="true">Description</button>
-        <button class="tab" role="tab" id="onglet-synopsis" aria-controls="panneau-synopsis" aria-selected="false">Synopsis</button>
-        <button class="tab" role="tab" id="onglet-caracteristiques" aria-controls="panneau-caracteristiques" aria-selected="false">Caractéristiques</button>
-        <button class="tab" role="tab" id="onglet-regles" aria-controls="panneau-regles" aria-selected="false">Règles</button>
-        <button class="tab" role="tab" id="onglet-avis" aria-controls="panneau-avis" aria-selected="false">Avis</button>
-        </div>
-      <section class="panel" role="tabpanel" id="panneau-description" aria-labelledby="onglet-description" tabindex="0">
-        <h4>Description</h4>
-        <p>Jeu de collection et de déplacement pour 2 à 4 joueurs. Chacun dirige une famille de pêcheurs qui remet en état les phares d'un port plongé dans la brume, avant l'arrivée de la tempête.</p>
-      </section>
-      <section class="panel" role="tabpanel" id="panneau-synopsis" aria-labelledby="onglet-synopsis" tabindex="0">
-        <h4>Synopsis</h4>
-        <p>Depuis trois jours, la brume ne se lève plus sur Port-Brume. Les phares s'éteignent un à un et les barques n'osent plus quitter le quai. Vous avez trois saisons pour rallumer les lanternes et guider la flotte jusqu'au port.</p>
-      </section>
-      <section class="panel" role="tabpanel" id="panneau-caracteristiques" aria-labelledby="onglet-caracteristiques" tabindex="0">
-        <h4>Caractéristiques</h4>
-        <dl class="specs">
-          <div><dt>Joueurs</dt><dd>2 à 4</dd></div>
-          <div><dt>Durée</dt><dd>45 min</dd></div>
-          <div><dt>Âge</dt><dd>10 ans et plus</dd></div>
-          <div><dt>Complexité</dt><dd>2,5 sur 5</dd></div>
-          <div><dt>Mécanique</dt><dd>Collection et majorité</dd></div>
-        </dl>
-      </section>
-      <section class="panel" role="tabpanel" id="panneau-regles" aria-labelledby="onglet-regles" tabindex="0">
-        <h4>Règles</h4>
-        <ol class="steps">
-          <li>Placez le plateau du port au centre de la table et un jeton « brume » sur chaque phare.</li>
-          <li>Chaque joueur prend une barque et cinq lanternes.</li>
-          <li>À son tour, déplacez votre barque de trois cases au plus, puis ramassez une ressource ou rallumez un phare.</li>
-          <li>La manche se termine quand tous les phares ont été visités. Trois manches forment une partie.</li>
-          <li>Le joueur qui a rallumé le plus de phares remporte la partie.</li>
-        </ol>
-      </section>
-      <section class="panel" role="tabpanel" id="panneau-avis" aria-labelledby="onglet-avis" tabindex="0">
-        <h4>Avis</h4>
-        <div class="rating">
-          <span class="rating-note">4,2 <small>sur 5</small></span>
-          <span class="stars" role="img" aria-label="Note moyenne de 4,2 sur 5"></span>
-        </div>
-        <blockquote class="avis">
-          <p>Facile à expliquer, la partie démarre en cinq minutes. Mes enfants ont voulu rejouer tout de suite.</p>
-          <footer>Camille, 5 sur 5</footer>
-        </blockquote>
-        <blockquote class="avis">
-          <p>Un peu long à deux joueurs, mais très agréable à quatre.</p>
-          <footer>Hugo, 4 sur 5</footer>
-        </blockquote>
-        <p class="section-intro">Notes et commentaires fictifs, pour illustrer cette rubrique.</p>
-      </section>
-      </div>
+      <h2 class="section-title" id="titre-apercu">L'application en images</h2>
+      <p class="section-intro">Parcourez les jeux du moment, composez votre collection et ouvrez la fiche de chaque jeu : description, règles et avis des joueurs.</p>
+      <ul class="shots" role="list" tabindex="0" aria-label="Captures d'écran de l'application">
+        <li>
+          <figure class="shot">
+            <img src="assets/img/ludonook-app-decouvrir.webp" alt="Écran Découvrir de LudoNook : jeux tendances, nouveautés et recommandations." width="458" height="967" loading="lazy" decoding="async">
+            <figcaption>Découvrir : les jeux du moment, les nouveautés et des recommandations.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="shot">
+            <img src="assets/img/ludonook-app-collection.webp" alt="Écran Collection de LudoNook : bibliothèque de sept jeux et bouton Scanner un jeu." width="462" height="966" loading="lazy" decoding="async">
+            <figcaption>Collection : votre bibliothèque et votre liste de souhaits.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="shot">
+            <img src="assets/img/ludonook-app-fiche-dune.webp" alt="Fiche du jeu Dune: Imperium dans LudoNook, avec sa note de 4,2 sur 5, ses catégories, le nombre de joueurs et la durée d'une partie." width="450" height="965" loading="lazy" decoding="async">
+            <figcaption>La fiche d'un jeu : note, catégories, nombre de joueurs et durée.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="shot">
+            <img src="assets/img/ludonook-app-fiche-clank.webp" alt="Fiche du jeu Clank! dans LudoNook, avec sa note de 3,8 sur 5, les onglets À propos, Règles et Avis, et le synopsis." width="457" height="966" loading="lazy" decoding="async">
+            <figcaption>Synopsis, règles et avis des joueurs : trois onglets par fiche.</figcaption>
+          </figure>
+        </li>
+      </ul>
     </div>
   </section>
 

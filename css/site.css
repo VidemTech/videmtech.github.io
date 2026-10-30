@@ -202,6 +202,15 @@ strong { font-weight: 700; }
 .avis p { max-width: none; }
 .avis footer { margin-top: .4rem; color: var(--muted); font-size: .875rem; }
 
+/* Captures d'écran de l'application (page LudoNook) : défilement horizontal sur petit écran, 4 colonnes sur grand écran */
+.shots { display: grid; grid-auto-flow: column; grid-auto-columns: min(15rem, 70%); gap: 1.5rem; margin: 2rem 0 0; padding: 0 0 1rem; list-style: none; overflow-x: auto; scroll-snap-type: x mandatory; }
+.shot { margin: 0; scroll-snap-align: start; }
+.shot img { display: block; width: 100%; height: auto; filter: drop-shadow(0 .6rem 1rem rgb(0 0 0 / .16)); }
+.shot figcaption { margin-top: .75rem; color: var(--muted); font-size: .9375rem; }
+@media (min-width: 52rem) {
+  .shots { grid-auto-flow: row; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; }
+}
+
 .cta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem 2rem; padding: clamp(1.5rem, 4vw, 2.5rem); background: var(--proj); color: var(--on-proj); border-radius: 1.25rem; }
 .cta h2 { margin: 0; font-size: clamp(1.5rem, 2.4vw + .8rem, 2.25rem); line-height: 1.1; letter-spacing: -.02em; }
 .cta p { margin: .4rem 0 0; }

@@ -8,7 +8,7 @@ Hébergé gratuitement avec GitHub Pages.
 - `index.html` : accueil et liste des projets
 - `ludonook.html`, `mathematix.html` : une page par application, avec sa politique de confidentialité
 - `css/site.css` : toute la mise en forme (thème clair et sombre selon le système)
-- `js/site.js` : année du pied de page et onglets de la fiche d'exemple LudoNook
+- `js/site.js` : année du pied de page
 - `assets/` : polices (licence OFL), icônes et images
 
 ## Voir le site en local
