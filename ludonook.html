@@ -128,7 +128,7 @@
           <li>Lisez l'avertissement, puis confirmez. Vous devrez saisir votre mot de passe, ou vous reconnecter avec Google.</li>
         </ol>
         <h3>Ce qui est supprimé</h3>
-        <p>La suppression est définitive. Votre profil, votre collection, votre liste de souhaits et vos amis sont perdus et ne peuvent pas être récupérés. Vos avis restent visibles sur les fiches des jeux, mais deviennent anonymes.</p>
+        <p>La suppression est définitive. Votre profil, votre collection, votre liste de souhaits, vos amis, vos annonces de prêt et vos demandes de prêt sont perdus et ne peuvent pas être récupérés. Si un prêt est en cours (accepté ou remis), la suppression du compte est refusée tant qu'il n'est pas terminé ou annulé. Vos avis restent visibles sur les fiches des jeux, mais deviennent anonymes.</p>
       </div>
       <div class="actions">
         <a class="btn btn--proj" href="ludonook://delete-account">Supprimer mon compte dans l'application</a>
@@ -140,6 +140,7 @@
   <section class="section policy" id="confidentialite" aria-labelledby="titre-confidentialite">
     <div class="wrap">
       <h2 class="section-title" id="titre-confidentialite">Règles de confidentialité de l'application LudoNook</h2>
+      <p class="section-intro">Dernière mise à jour : 12 novembre 2026 (ajout du prêt de jeux entre utilisateurs, section M).</p>
       <div class="prose">
             <h3>A. Introduction</h3>
             <ol>
@@ -179,6 +180,13 @@
                     et qui incluent votre identifiant, vos photos de profil et le contenu de vos publications ;</li>
                 <li>Des informations contenues dans toutes les communications que vous nous envoyez par e-mail ou sur
                     notre site web, y compris leurs contenus et leurs métadonnées ;</li>
+                <li>Si vous utilisez le prêt de jeux entre utilisateurs (facultatif) : vos annonces (jeu proposé, état,
+                    description, visibilité, disponibilité), vos demandes d’emprunt (message, lieu de rendez-vous, date
+                    de retour proposée, état et dates du prêt) et la zone géographique approximative, d’environ 16 km de
+                    large, que vous choisissez ou qui est déduite de la localisation approximative de votre appareil
+                    (voir la section M) ;</li>
+                <li>La liste des identifiants de vos amis, enregistrée sur votre profil et sur vos annonces réservées à
+                    vos amis ;</li>
                 <li>Toute autre information personnelle que vous nous communiquez.</li>
             </ol>
             <p>Avant de nous divulguer des informations personnelles concernant une autre personne, vous devez obtenir
@@ -242,6 +250,9 @@
             </ol>
             <p>Sauf disposition contraire de la présente politique, nous ne transmettrons pas vos informations
                 personnelles à des tierces parties.</p>
+            <p>Les données de l’application sont hébergées par Google Firebase (Firestore et Authentification), notre
+                sous-traitant technique. Les fonds de la carte du prêt de jeux sont fournis par OpenFreeMap (voir la
+                section M).</p>
             <h3>F. Transferts internationaux de données</h3>
             <ol>
                 <li>Les informations que nous collectons peuvent être stockées, traitées et transférées dans tous les
@@ -273,6 +284,9 @@
                             d’autres à des fins de prévention des fraudes et de réduction des risques de crédit).</li>
                     </ol>
                 </li>
+                <li>Prêt de jeux : vos annonces sont conservées tant que vous ne les supprimez pas et sont supprimées
+                    avec votre compte. Les demandes de prêt terminées, refusées ou annulées sont conservées 24 mois,
+                    puis supprimées automatiquement ; vos demandes de prêt sont supprimées avec votre compte.</li>
             </ol>
             <h3>H. Sécurité de vos informations personnelles</h3>
             <ol>
@@ -318,6 +332,52 @@
             <h3>L. Mise à jour des informations</h3>
             <p>Merci de nous faire savoir si les informations personnelles que nous détenons à votre sujet doivent être
                 corrigées ou mises à jour.</p>
+            <h3 id="pret-de-jeux">M. Prêt de jeux entre utilisateurs</h3>
+            <p>LudoNook permet de proposer ses jeux en prêt à d’autres utilisateurs et d’en emprunter. Cette
+                fonctionnalité est facultative et réservée aux personnes majeures.</p>
+            <ol>
+                <li><strong>Les données concernées.</strong> Pour une annonce : le jeu proposé, son état, une
+                    description libre, sa visibilité (tous les utilisateurs ou seulement vos amis), sa disponibilité et
+                    sa zone géographique. Pour une demande d’emprunt : votre message, le lieu de rendez-vous convenu,
+                    la date de retour proposée, l’état d’avancement du prêt et ses dates. Votre nom d’utilisateur est
+                    affiché sur vos annonces.</li>
+                <li><strong>Votre localisation.</strong> L’application ne demande que la localisation
+                    <strong>approximative</strong> de votre appareil, uniquement lorsque vous utilisez la recherche de
+                    jeux à proximité ou que vous publiez une annonce, et uniquement quand l’application est ouverte
+                    (jamais en arrière-plan). Votre position est transformée <strong>sur votre appareil</strong> en une
+                    zone hexagonale d’environ 16 km de large en France. <strong>Seule l’identité de cette zone est
+                    enregistrée et envoyée à nos serveurs.</strong> Votre position précise n’est ni envoyée, ni
+                    enregistrée, ni conservée, et aucun historique de vos déplacements n’est gardé. L’application
+                    n’affiche pas de distance précise entre vous et un autre utilisateur, seulement une indication de
+                    proximité de zone. Vous pouvez refuser la localisation et choisir votre zone manuellement dans une
+                    liste de communes. Vous pouvez retirer l’autorisation à tout moment dans les réglages
+                    d’Android.</li>
+                <li><strong>Qui voit quoi.</strong> La zone et le nom d’utilisateur figurant sur une annonce sont
+                    visibles par tous les utilisateurs connectés si l’annonce est publique, ou seulement par vos amis
+                    si vous l’avez réservée à vos amis. Votre message et le lieu de rendez-vous d’une demande ne sont
+                    visibles que par le propriétaire du jeu et l’emprunteur. Pour réserver une annonce à vos amis,
+                    l’application enregistre sur votre profil et sur l’annonce la liste des identifiants de vos
+                    amis.</li>
+                <li><strong>Pourquoi (base légale).</strong> La localisation approximative repose sur votre
+                    consentement (l’autorisation Android). Les annonces et les demandes sont nécessaires au service de
+                    prêt que vous utilisez.</li>
+                <li><strong>Durée de conservation.</strong> Vos annonces sont conservées tant que vous ne les
+                    supprimez pas et sont supprimées avec votre compte. Les demandes de prêt terminées, refusées ou
+                    annulées sont conservées 24 mois, puis supprimées ; elles sont aussi supprimées avec votre compte.
+                    Un compte ne peut pas être supprimé tant qu’un prêt est en cours.</li>
+                <li><strong>Destinataires.</strong> Les données sont hébergées par Google Firebase (Firestore), notre
+                    sous-traitant technique déjà utilisé par l’application. Quand vous affichez la carte du prêt, les
+                    fonds de carte sont fournis par OpenFreeMap, qui voit votre adresse IP et la zone de carte
+                    affichée, sans compte ni cookie ; la carte n’affiche jamais votre position. Nous ne vendons pas ces
+                    données et ne les utilisons pas pour de la publicité.</li>
+                <li><strong>Vos droits.</strong> Vous pouvez accéder à vos données, les corriger, les supprimer
+                    (supprimer une annonce, ou supprimer votre compte depuis votre profil), retirer votre consentement
+                    à la localisation, et introduire une réclamation auprès de la CNIL. Contact :
+                    <a href="mailto:contact@videm.tech">contact@videm.tech</a>.</li>
+                <li><strong>Limites à connaître.</strong> Même sans position précise, une annonce publique indique à
+                    tous une zone d’environ 16 km où se trouve son auteur, associée à son nom d’utilisateur. Si cela ne
+                    vous convient pas, réservez l’annonce à vos amis.</li>
+            </ol>
       </div>
     </div>
   </section>
