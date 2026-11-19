@@ -140,7 +140,7 @@
   <section class="section policy" id="confidentialite" aria-labelledby="titre-confidentialite">
     <div class="wrap">
       <h2 class="section-title" id="titre-confidentialite">Règles de confidentialité de l'application LudoNook</h2>
-      <p class="section-intro">Dernière mise à jour : 12 novembre 2026 (prêt de jeux, section M ; réécriture pour une application mobile).</p>
+      <p class="section-intro">Dernière mise à jour : 18 novembre 2026 (prêt de jeux : discussion, notes, notifications ; zone de 5 km).</p>
       <div class="prose">
             <h3>A. Introduction</h3>
             <ol>
@@ -166,8 +166,9 @@
                     vos amis et demandes d’amis, vos notes et avis sur les jeux, vos badges ;</li>
                 <li>Si vous utilisez le prêt de jeux entre utilisateurs (facultatif) : vos annonces (jeu proposé,
                     état, description, visibilité, disponibilité), vos demandes d’emprunt (message, lieu de
-                    rendez-vous, date de retour proposée, état et dates du prêt) et la zone géographique approximative,
-                    d’environ 10 km de large, que vous choisissez ou qui est déduite de la localisation approximative
+                    rendez-vous, dates de retrait et de retour proposées, état et dates du prêt), les messages de la
+                    discussion d’un prêt, les notes données et reçues après un prêt, vos éventuels signalements, et la zone géographique approximative,
+                    d’environ 5 km de large, que vous choisissez ou qui est déduite de la localisation approximative
                     de votre appareil (voir la section M) ;</li>
                 <li>La liste des identifiants de vos amis, enregistrée sur votre profil et sur vos annonces réservées à
                     vos amis ;</li>
@@ -236,7 +237,11 @@
                     LudoNook » sur cette page). Vos avis restent alors visibles de manière anonyme.</li>
                 <li>Prêt de jeux : vos annonces sont conservées tant que vous ne les supprimez pas et sont supprimées
                     avec votre compte. Les demandes de prêt terminées, refusées ou annulées sont conservées 24 mois,
-                    puis supprimées automatiquement ; vos demandes de prêt sont supprimées avec votre compte.</li>
+                    puis supprimées automatiquement ; vos demandes de prêt sont supprimées avec votre compte. Les
+                    messages d’une discussion de prêt sont supprimés automatiquement 24 mois après leur envoi, y
+                    compris après la suppression de votre compte (ils deviennent illisibles dès cet instant). Les notes
+                    sont conservées, liées uniquement à un identifiant anonyme après la suppression de votre compte.
+                    Les signalements sont conservés au plus 12 mois, puis supprimés automatiquement.</li>
                 <li>Nous pouvons conserver certaines informations plus longtemps dans la mesure où nous sommes tenus de
                     le faire par la loi, ou pour établir, exercer ou défendre nos droits légaux.</li>
             </ol>
@@ -292,13 +297,18 @@
                 <li><strong>Les données concernées.</strong> Pour une annonce : le jeu proposé, son état, une
                     description libre, sa visibilité (tous les utilisateurs ou seulement vos amis), sa disponibilité et
                     sa zone géographique. Pour une demande d’emprunt : votre message, le lieu de rendez-vous convenu,
-                    la date de retour proposée, l’état d’avancement du prêt et ses dates. Votre nom d’utilisateur est
-                    affiché sur vos annonces.</li>
+                    les dates de retrait et de retour proposées, l’état d’avancement du prêt et ses dates (dont les
+                    confirmations de réception et de retour du jeu). Une fois la demande acceptée : les messages de la
+                    discussion du prêt (500 caractères au plus chacun), qui ne sont lisibles que par le propriétaire et
+                    l’emprunteur, et les lignes d’information automatiques (« X a accepté la demande »). Une fois le prêt
+                    terminé : la note de 1 à 5 étoiles que chacun donne à l’autre. Votre nom d’utilisateur est affiché
+                    sur vos annonces, et votre note moyenne, votre nombre de notes et votre date d’inscription sont
+                    visibles des autres utilisateurs sur les demandes de prêt.</li>
                 <li><strong>Votre localisation.</strong> L’application ne demande que la localisation
                     <strong>approximative</strong> de votre appareil, uniquement lorsque vous utilisez la recherche de
                     jeux à proximité ou que vous publiez une annonce, et uniquement quand l’application est ouverte
                     (jamais en arrière-plan). Votre position est transformée <strong>sur votre appareil</strong> en une
-                    zone hexagonale d’environ 10 km de large en France. <strong>Seule l’identité de cette zone est
+                    zone hexagonale d’environ 5 km de large en France. <strong>Seule l’identité de cette zone est
                     enregistrée et envoyée à nos serveurs.</strong> Votre position précise n’est ni envoyée, ni
                     enregistrée, ni conservée, et aucun historique de vos déplacements n’est gardé. L’application
                     n’affiche pas de distance précise entre vous et un autre utilisateur, seulement une indication de
@@ -311,13 +321,23 @@
                     visibles que par le propriétaire du jeu et l’emprunteur. Pour réserver une annonce à vos amis,
                     l’application enregistre sur votre profil et sur l’annonce la liste des identifiants de vos
                     amis.</li>
+                <li><strong>Discussion, notes et signalements.</strong> Les mots offensants sont filtrés. Vous pouvez
+                    signaler un message ou toute une discussion : le texte signalé, le motif et votre commentaire sont
+                    enregistrés et lus par VidemTech seulement, qui peut supprimer un contenu ou suspendre un compte ;
+                    l’autre utilisateur n’est pas informé de l’identité de l’auteur du signalement. Une note ne peut
+                    être ni modifiée ni supprimée.</li>
+                <li><strong>Notifications.</strong> Si vous autorisez les notifications, l’application vérifie environ
+                    une fois par heure, depuis votre appareil, vos demandes de prêt en cours pour vous prévenir
+                    qu’une demande vous attend (demande à examiner, réception ou retour à confirmer). Aucune donnée
+                    n’est envoyée à un tiers pour cela. Vous pouvez les désactiver dans les réglages d’Android.</li>
                 <li><strong>Pourquoi (base légale).</strong> La localisation approximative repose sur votre
                     consentement (l’autorisation Android). Les annonces et les demandes sont nécessaires au service de
                     prêt que vous utilisez.</li>
                 <li><strong>Durée de conservation.</strong> Vos annonces sont conservées tant que vous ne les
                     supprimez pas et sont supprimées avec votre compte. Les demandes de prêt terminées, refusées ou
                     annulées sont conservées 24 mois, puis supprimées ; elles sont aussi supprimées avec votre compte.
-                    Un compte ne peut pas être supprimé tant qu’un prêt est en cours.</li>
+                    Les messages sont supprimés automatiquement 24 mois après leur envoi, les notes sont conservées
+                    sans limite de durée (de façon anonyme après la suppression du compte). Un compte ne peut pas être supprimé tant qu’un prêt est en cours.</li>
                 <li><strong>Destinataires.</strong> Les données sont hébergées par Google Firebase (Firestore), notre
                     sous-traitant technique déjà utilisé par l’application. Quand vous affichez la carte du prêt, les
                     fonds de carte sont fournis par OpenFreeMap, qui voit votre adresse IP et la zone de carte
@@ -328,7 +348,7 @@
                     à la localisation, et introduire une réclamation auprès de la CNIL. Contact :
                     <a href="mailto:contact@videm.tech">contact@videm.tech</a>.</li>
                 <li><strong>Limites à connaître.</strong> Même sans position précise, une annonce publique indique à
-                    tous une zone d’environ 10 km où se trouve son auteur, associée à son nom d’utilisateur. Si cela ne
+                    tous une zone d’environ 5 km où se trouve son auteur, associée à son nom d’utilisateur. Si cela ne
                     vous convient pas, réservez l’annonce à vos amis.</li>
             </ol>
       </div>
